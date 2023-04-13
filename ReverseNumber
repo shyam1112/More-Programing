@@ -1,0 +1,14 @@
+public class ReverseNumber {
+    public static void main(String[] args) {
+        
+        int n=123456;
+        int a=0;
+        while(n>0){
+            int x=n%10; //last digit -->n divide by 10 and give remainder
+            a=(a*10)+x;  //multiplie by 10 and add into last digit
+            n=n/10;
+        }
+        System.out.println(a);
+    }
+    
+}
