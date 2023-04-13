@@ -1,0 +1,17 @@
+import java.util.*;
+
+class Alphabet{
+    public static void main(String[] args) {
+        //check the input char is uppercase or lowercase
+
+        Scanner sc=new Scanner(System.in);
+        
+        char txt=sc.next().trim().charAt(0);
+    if(txt >='a'&& txt<='z'){
+        System.out.println("LowerCase");
+    }else{
+        System.out.println("UpperCase");
+    }
+
+    }
+}
