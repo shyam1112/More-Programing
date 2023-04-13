@@ -1,0 +1,14 @@
+public class CountOccurrences {
+    public static void main(String[] args) {
+        int n=554554;
+        int count=0;
+        while(n>0){
+            int x=n%10;
+            if(x==5){
+                count++;
+            }
+            n=n/10;
+        }
+        System.out.println(count);
+    }
+}
